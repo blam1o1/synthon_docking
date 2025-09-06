@@ -4,7 +4,7 @@ import pandas as pd
 import argparse
 import os
 
-synthon_data = '/lustre/fs6/lyu_lab/scratch/blam/work/synthon/rescorePoses/synthonDict/m_22bcb_RescoreSynthonSMART'
+synthon_data = '/path/to/synthon_data.txt'
 
 def prepareSynthonData(path):
     df = pd.read_csv(path)
